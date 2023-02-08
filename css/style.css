@@ -1,0 +1,358 @@
+/*RESET*/
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BODY TODOS LOS HTML*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/*HEADER*/
+
+header {
+    background-color: #1289FF;
+}
+
+.header__logo { 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.header__nav {
+    padding: 10px;
+    margin: 10px;
+}
+
+.header__links { 
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    font-weight: 500;
+    text-align: left;
+    text-decoration: none;
+}
+
+/*FOOTER*/
+footer{ 
+    background-color: #1289FF;
+    height: auto;
+}
+
+.texto__footer {
+    margin: 10px;
+    padding: 5px;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    text-align: left;
+}
+
+#textoFooterContacto {
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    text-align: left;
+}
+
+.footer__logo {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 80px;
+    width: 60px;
+    height: 60px;
+}
+
+
+/*MAIN INDEX*/
+
+#tituloIndex {
+    color: #1289FF;
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#imagenIndex {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 80px;
+    height: 700px;
+    width: 700px;
+}
+
+#parrafoIndex {
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+
+#botonServicios {
+    background-color: #1289FF;
+    background-image: none;
+    font-size: large;
+    font-weight: 600;
+    font-style: bold;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*MAIN SERVICIOS*/
+
+.tarjeta-servicios { 
+    margin: 10px;
+    padding: 10px;
+    outline-color:#1289FF;
+    outline-style:solid;
+    outline-width:thin;
+}
+
+.imagen-tarjeta-servicio {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40px;
+    width: 250px;
+    height: 300px;
+}
+
+.titulo-tarjeta-servicio {
+    color: #1289FF;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.parrafo-tarjeta-servicio {
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+
+#botonPrecios {
+    background-color: #1289FF;
+    background-image: none;
+    font-size: large;
+    font-weight: 600;
+    font-style: bold;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*MAIN PRECIO*/
+
+.tarjeta-promocion {
+    margin: 10px;
+    padding: 10px;
+    outline-color:#1289FF;
+    outline-style:solid;
+    outline-width:thin;
+}
+
+.titulo-promocion {
+    color: #1289FF;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.descripcion-promocion {
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+
+.boton-promocion {
+    background-color: #1289FF;
+    background-image: none;
+    font-size: large;
+    font-weight: 600;
+    font-style: bold;
+    text-align: center;
+}
+
+.boton-agendar {
+    background-color: #1289FF;
+    background-image: none;
+    font-size: large;
+    font-weight: 600;
+    font-style: bold;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+#tituloPrecios {
+    color: #1289FF;
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*REVISAR*/
+.accordion {
+    background-color: #1289FF;
+    background-image: none;
+    font-size: large;
+    font-weight: 600;
+    font-style: bold;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/*MAIN CLIENTES*/
+
+.tarjeta-clientes {
+    margin: 10px;
+    padding: 10px;
+    outline-color:#1289FF;
+    outline-style:solid;
+    outline-width:thin;
+}
+
+.imagen-tarjeta-clientes {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40px;
+    width: 250px;
+    height: 300px;
+}
+
+.titulo-tarjeta-clientes {
+    color: #1289FF;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.parrafo-tarjeta-clientes {
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*MAIN CONTACTO:*/
+
+#tituloContacto {
+    color: #1289FF;
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#formularioContacto {
+    margin: 10px;
+    padding: 10px;
+    outline-color:#1289FF;
+    outline-style:solid;
+    outline-width:medium;
+}
+
+#imagenAgenda {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+#nombreCompleto {
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+
+#telefono {
+    color: black;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.preguntas-formulario {
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+
+#informacionadicional {
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    text-align: center; 
+}
+
+.logo-contacto {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+}
+
+#subtituloHorariosContacto {
+    color:#1289FF;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+
+#informacionHorariosContacto {
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+
+#botonFormulario {
+    background-color: #1289FF;
+    background-image: none;
+    font-size: large;
+    font-weight: 400;
+    font-style: bold;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+#contenedorResdesSociales {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor-redes-sociales {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+}
