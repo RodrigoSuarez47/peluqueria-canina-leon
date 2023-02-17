@@ -18,7 +18,7 @@
     <!--HEADER-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_header">
-            <a class="navbar-brand" href="#"><img src="./imagenes/My project-1.png" alt="Header Logo" class="header__logo"></a>
+            <a class="navbar-brand" href="#"><img src="../imagenes/My project-1.png" alt="Header Logo" class="header__logo"></a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -42,32 +42,37 @@
     </header>
     <!--MAIN-->
     <main>
-        <div class="div__main__precios">
-            <div class="div__main__precios__tarjetas">
-                <div class="tarjeta-promocion">
-                    <h2 class="titulo-promocion">Esquila+Baño</h1>
-                    <p class="descripcion-promocion">Descripción</p>
-                    <button class="boton-promocion"><a href="./contacto.html">$</a></button>
+        <div class="container.fluid">
+                <!--TARJETA 1-->
+            <div class="container.fluid" id=container_main_precios>
+                <div class="card text-bg-dark">
+                    <img src="../imagenes/promocionpequenos.jpg" class="card-img" alt="Promocion pequeños">
+                    <div class="card-img-overlay">
+                        <div>
+                            <h5 class="card-title">Baño + Esquila o Corte de Raza</h5>
+                            <p class="card-text">                                                                       
+                                Aplica para mascotas menores o iguales a 10kg de peso.
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-light">Agendar</button>
+                    </div>
                 </div>
-                <div class="tarjeta-promocion">
-                    <h2 class="titulo-promocion">Deslanado+Baño</h2>
-                    <p class="descripcion-promocion">Descripción</p>
-                    <button class="boton-promocion"><a href="./contacto.html">$</a></button>
+            </div>
+            <!--TARJETA 2-->
+
+            <div class="container.fluid"  id=container_main_precios>
+                <div class="card text-bg-dark">
+                    <img src="../imagenes/promocion grandes.jpg" class="card-img" alt="Promocion grandes">
+                    <div class="card-img-overlay">
+                        <div>
+                            <h5 class="card-title">Baño + Deslanado</h5>
+                            <p class="card-text">                                                                       
+                                Aplica para mascotas menores o iguales a 25kg de peso.
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-light">Agendar</button>
+                    </div>
                 </div>
-            </div>
-            <div >
-                <button class="boton-agendar" ><a href="./contacto.html">Agendar</a></button>
-            </div>
-            <div>
-                <h3 id="tituloPrecios">Lista de precios</h3>
-            </div>
-            <!Revisar>
-            <div id="acordionprecios">
-                <button class="accordion">Precio 1</button>
-                <button class="accordion"> Precio 2</button>
-                <button class="accordion"> Precio 3</button>
-                <button class="accordion"> Precio 4</button>
-                <button class="accordion"> Precio 5</button> 
             </div>
         </div>
     </main>

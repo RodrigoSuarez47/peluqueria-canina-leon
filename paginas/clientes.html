@@ -18,7 +18,7 @@
      <!--HEADER-->
      <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_header">
-            <a class="navbar-brand" href="#"><img src="./imagenes/My project-1.png" alt="Header Logo" class="header__logo"></a>
+            <a class="navbar-brand" href="#"><img src="../imagenes/My project-1.png" alt="Header Logo" class="header__logo"></a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -42,32 +42,45 @@
     </header>
     <!--MAIN-->
     <main>
-        <div class="div__main__clientes">
-            <div class="div__main__clientes__tarjetas">
-                <article class="tarjeta-clientes">
-                    <img class="imagen-tarjeta-clientes" src="" alt="imagen cliente 1">
-                    <h1 class="titulo-tarjeta-clientes">Cliente 1</h1>
-                    <p class="parrafo-tarjeta-clientes">Datos cliente 1, servicio realizado, etc.</p>
-                </article>
-                <article class="tarjeta-clientes">
-                    <img class="imagen-tarjeta-clientes" src="" alt="imagen cliente2">
-                    <h2 class="titulo-tarjeta-clientes">Cliente 2</h2>
-                    <p  class="parrafo-tarjeta-clientes">Datos cliente 2, servicio realizado, etc.</p>
-                </article>
-                <article class="tarjeta-clientes">
-                    <img class="imagen-tarjeta-clientes" src="" alt="imagen cliente 3">
-                    <h2 class="titulo-tarjeta-clientes">Cliente 3</h3>
-                    <p class="parrafo-tarjeta-clientes">Datos cliente 3, servicio realizado, etc.</p>
-                </article>
-                <article class="tarjeta-clientes">
-                    <img class="imagen-tarjeta-clientes" src="" alt="imagen cliente 4">
-                    <h2 class="titulo-tarjeta-clientes">Cliente 4</h4>
-                    <p class="parrafo-tarjeta-clientes">Datos cliente 4, servicio realizado, etc.</p>
-                </article>
-            </div>
-                <div>
-                <button class="boton-agendar"><a href="./contacto.html">Agendar</a></button>
-            </div>
+        <div class="container.fluid">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Leon</h5>
+                      <p>Deslanado+Baño</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Taco</h5>
+                      <p>Baño+Corte de Uñas</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nombre tercer cliente</h5>
+                      <p>Descripcion servicio realizado</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>    
     </main>
     <!--FOOTER-->

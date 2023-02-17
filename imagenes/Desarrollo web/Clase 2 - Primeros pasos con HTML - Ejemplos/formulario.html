@@ -1,0 +1,123 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+    </head>
+    <body>
+
+        <form action="link de accion del formulario" method="get" enctype="multipart/form-data">
+
+            <!-- Ejemplo de Grupo de campos -->
+            <fieldset>
+                <legend>Datos personales</legend>
+                <br>
+                <!-- Ejemplos de campos de texto -->
+                <div>
+                    <label for="nombre"><b>Nombre</b></label>
+                    <br>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="apellido"><b>Apellido</b></label>
+                    <br>
+                    <input type="text" id="apellido" name="apellido">
+                </div>
+                <br>
+                <div>
+                    <label for="dni"><b>DNI</b></label>
+                    <br>
+                    <input type="text" id="dni" name="dni">
+                </div>
+                <br>
+            </fieldset>
+
+            <br><br>
+
+            <!-- Ejemplo de campo para contraseñas -->
+            <div>
+                <label for="contraseña"><b>Contraseña</b></label>
+                <br>
+                <input type="password" name="contraseña">
+            </div>
+
+            <br><br>
+
+            <!-- Ejemplo de campo para números -->
+            <div>
+                <label for="mascotas"><b>Cantidad de mascotas</b></label>
+                <br>
+                <input type="number" name="mascotas" id="mascotas">
+            </div>
+
+            <br><br>
+
+            <!-- Ejemplo de campo multilínea -->
+            <div>
+                <label for="mascotas"><b>Escribe un comentario aqui</b></label>
+                <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <br><br>
+
+            <!-- Ejemplo de opción única -->
+            <div>
+                <p><b>Te gusta el mate?</b></p>
+                <div>
+                    <label for="si">Si</label>
+                    <input type="radio" id="si" name="mate">
+                </div>
+                <div>
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="mate">
+                </div>
+            </div>
+
+            <br><br>
+
+            <!-- Ejemplo de opción múltiple -->
+            <div>
+                <p><b>Hobbys:</b></p>
+                <div>
+                    <label for="piano">Piano</label>
+                    <input type="checkbox" id="piano">
+                </div>
+                <div>
+                    <label for="canto">Canto</label>
+                    <input type="checkbox" id="canto">
+                </div>
+                <div>
+                    <label for="canto">Natación</label>
+                    <input type="checkbox" id="canto">
+                </div>
+            </div>
+
+            <br><br>
+
+            <!-- Ejemplo de campo de selección (Select) -->
+            <div>
+                <p><b>Comida favorita</b></p>
+                <select name="" id="comida">
+                    <option value="" selected disabled>Elige tu comida favorita</option>
+                    <option value="frutilla">Frutillas</option>
+                    <option value="panqueques">Panqueques</option>
+                    <option value="manzana">Manzana</option>
+                </select>
+            </div>
+
+            <br><br>
+
+            <div>
+                <!-- Ejemplo de boton de Enviar (Submit) -->
+                <input type="submit" value="Enviar">
+
+                <!-- Ejemplo de boton de Resetear (Reset) -->
+                <input type="reset" value="Resetear valores">
+            </div>
+        </form>
+
+    </body>
+</html>

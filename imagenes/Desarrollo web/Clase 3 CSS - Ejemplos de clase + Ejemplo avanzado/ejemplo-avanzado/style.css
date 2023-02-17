@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ESTILOS PARA EL HEADER Y SUS ELEMENTOS */
+header{
+    background:#92977E;
+    height:70px;
+    padding:15px;
+}
+header p{
+    color:#FFFAE2;
+    display: inline; /*Hace que el elemento se comporte como un elemento en línea en vez de bloque*/
+    font-size:20px;
+    font-weight:bold;
+    margin-left:10px;
+}
+
+
+/* ESTILOS PARA EL BANNER PRINCIPAL Y SUS ELEMENTOS */
+#banner-principal{
+    height:100vh;
+    background-image: url('https://dam.ngenespanol.com/wp-content/uploads/2021/08/first-giant-dinosaur-f.jpg'); /*Pone imagen de fondo*/
+    background-repeat: no-repeat; /*Hace que el fondo no se repita*/
+    background-size: cover; /*Hace que el fondo cubra todo el contenedor*/
+    background-attachment: fixed; /*Hace que el fondo quede fijo*/
+}
+#banner-principal h1{
+    color:#ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align:center;
+    padding-top:40vh;
+}
+
+
+/* ESTILOS PARA LA SECCION SOBRE MI Y SUS ELEMENTOS */
+#sobre-mi{
+    margin:40px 0px;
+    text-align:center; /*Alinea todo al centro*/
+}
+#sobre-mi h2{
+    text-align:center;
+    color:#343E3D;
+    font-size: 30px;
+    font-weight:bold;
+}
+#sobre-mi .parrafo{
+    font-size:20px;
+    color:#92977E;
+    text-align:center;
+    margin-top:20px;
+}
+#sobre-mi img{
+    max-width:350px; /*Le dice al elemento cual es lo máximo que puede ocupar de ancho*/
+    margin-top:20px;
+    border-radius:50%; /*Le da borde redondeado a la imagen. Si el valor es 50%, hace la imagen redonda*/
+}
+
+
+/* ESTILOS PARA SECCION APRENDER MAS Y SUS ELEMENTOS */
+#aprender-mas{
+    text-align: center;
+}
+#aprender-mas .tarjeta-aprender-mas{
+    background:#FEFCAD;
+    padding:90px 0px;
+}
+.tarjeta-aprender-mas h2{
+    font-size:30px;
+    line-height: 34px; /* Cambia la altura de la línea */
+    margin-bottom:30px !important; /*Ejemplo del uso del !important */
+}
+.tarjeta-aprender-mas .button{
+    padding:14px 20px;
+    border-radius:8px;
+    background:#92977E;
+    color:#ffffff;
+    text-decoration: none;
+}
+.aprender-mas-info{
+    color:#343E3D;
+    text-align:center;
+}
+
+
+
+/* ESTILOS PARA EL FOOTER Y SUS ELEMENTOS */
+footer{
+    background: #343E3D;
+    padding:20px;
+}
+footer p{
+    color:white;
+    font-size: 14px;
+}
