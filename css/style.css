@@ -63,6 +63,7 @@ header {
     justify-content: space-evenly;
     background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
     background-size: cover;
+    height: 90px;
 }
 
 #navbarNav {
@@ -146,6 +147,16 @@ main {
     width: 100%;
 }
 
+.main_row {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 /*MAIN INDEX*/
 
 .button_index {
@@ -165,13 +176,36 @@ main {
 
 /*MAIN SERVICIOS*/
 
+#main_columna1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
 #container_main_servicios {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 5px;
-    padding: 5px;
+    margin: 30px;
+}
+
+.mb-3 {
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 0px;
+    margin-bottom: 0px!important;
+}
+
+.card-title-servicios {
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 20px;
+    background-color: lightgray;
 }
 
 .card-body {
@@ -184,6 +218,8 @@ main {
 #card_servicios_imagen {
     width: 500px;
     height: 120px;
+    border-radius: 0px;
+    border-style: none;
 }
 
 #imagenes_tarjetas_servicios {
@@ -193,36 +229,117 @@ main {
     align-items: center;
 }
 
-#botonPrecios {
+#boton_servicios {
     font-family: 'Poppins', sans-serif;
     font-size: large;
-    font-weight: 600;
+    font-weight: 600; 
 }
 
 /*MAIN PRECIO*/
 
 #container_main_precios {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 10px;
     padding: 10px;
 }
 
-.card-title {
+.flexbox_tarjeta_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#tarjeta1{
+    border-color: #F574BF;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+#card_1_title {
+    font-weight: 600;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #F574BF;
+    font-size: 20px;
+}
+
+#boton_precios_1 {
+    background-color: #F574BF;
+    font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
 
-.card-text {
+#tarjeta2 {
+    border-color: #57A0FA;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+#card_2_title {
+    font-weight: 600;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    color: #57A0FA;
+    font-size: 20px;
+}
+
+#botonPrecios2 {
+    background-color: #57a0fa;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+#tarjeta3 {
+    border-color: #00E300;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+#card_3_title {
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #00E300;
+    font-size: 20px;
+}
+
+#botonPrecios3 {
+    background-color:#00E300;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+}
+
+.card-text-light {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #bcc6cf;
+    font-size: smaller;
+    margin-bottom: 40px;
 }
 
 .card-img {
-    height: 320px;
-    width: 400px;
+    height: 550px;
+    width: 320px;
 }
 
 .card-img-overlay {
@@ -232,21 +349,51 @@ main {
     align-items: center;
 }
 
-.div__main__precios {
+#tarjeta4 {
+    border-color: #F5DD2E;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.flexbox_tarjeta_4 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-.div__main__precios__tarjetas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+#card_4_title {
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #F5DD2E;
+    font-size: 20px;
+}
+
+#boton_precios_4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #F5DD2E;
 }
 
 /*MAIN CLIENTES*/
+
+#tarjeta_clientes {
+    height: 400px;
+    width: 270px;
+    border-radius: 50px;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    background-color: transparent!important;
+    margin: 20px;
+}
+
+#card-title-black {
+    color: black;
+}
+
 
 .div__main__clientes {
     display: flex;

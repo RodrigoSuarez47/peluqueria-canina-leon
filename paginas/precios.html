@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Precios y Promociones - Peluquería Canina León </title>
+    <title> Precios- Peluquería Canina León </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,600&display=swap" rel="stylesheet">
@@ -28,7 +28,7 @@
                         <a class="nav-link" href="./servicios.html">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./precios.html">Precios y Promociones</a>
+                        <a class="nav-link" href="./precios.html">Precios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./clientes.html">Clientes</a>
@@ -41,40 +41,108 @@
         </nav>
     </header>
     <!--MAIN-->
-    <main>
+    <main class="main_row">
         <div class="container.fluid">
-                <!--TARJETA 1-->
-            <div class="container.fluid" id=container_main_precios>
-                <div class="card text-bg-dark">
-                    <img src="../imagenes/promocionpequenos.jpg" class="card-img" alt="Promocion pequeños">
+        <!--TARJETA 1-->
+            <div class="container.fluid" id="container_main_precios">
+                <div class="card text-bg-dark" id="tarjeta1">
+                    <img src="../imagenes/precios1.jpg" class="card-img" alt="Promocion pequeños">
                     <div class="card-img-overlay">
-                        <div>
-                            <h5 class="card-title">Baño + Esquila o Corte de Raza</h5>
-                            <p class="card-text">                                                                       
-                                Aplica para mascotas menores o iguales a 10kg de peso.
+                        <div class="flexbox_tarjeta_1">
+                            <h5 class="card-title" id="card_1_title">Razas pequeñas - Pelo largo</h5>
+                            <p class="card-text-light">Aplica para mascotas menores o iguales a 10kg de peso.
                             </p>
+                            <p class="card-text">
+                                🐾 Baño + Corte de Raza o Esquila $750
+                            </p>
+                            <p class="card-text">
+                                🐾 Limpieza de oÍdos $120
+                            </p>
+                            <p class="card-text">
+                                🐾Corte de uñas $150
+                            </p>
+                            <button type="button" class="btn btn-light" id="boton_precios_1">Agendar</button>
                         </div>
-                        <button type="button" class="btn btn-light">Agendar</button>
                     </div>
                 </div>
             </div>
+        </div>    
             <!--TARJETA 2-->
-
-            <div class="container.fluid"  id=container_main_precios>
-                <div class="card text-bg-dark">
-                    <img src="../imagenes/promocion grandes.jpg" class="card-img" alt="Promocion grandes">
-                    <div class="card-img-overlay">
-                        <div>
-                            <h5 class="card-title">Baño + Deslanado</h5>
-                            <p class="card-text">                                                                       
-                                Aplica para mascotas menores o iguales a 25kg de peso.
-                            </p>
-                        </div>
-                        <button type="button" class="btn btn-light">Agendar</button>
+        <div class="container.fluid"  id="container_main_precios">
+            <div class="card text-bg-dark"  id="tarjeta2">
+                <img src="../imagenes/precios2.png" class="card-img" alt="Promocion grandes">
+                <div class="card-img-overlay">
+                    <div>
+                        <h5 class="card-title" id="card_2_title">Razas grandes - Pelo corto</h5>
+                        <p class="card-text-light">                                                                       
+                            Aplica para mascotas menores o iguales a 25kg de peso.
+                        </p>
+                        <p class="card-text">
+                            🐾 Baño + Cepillado $850
+                        </p>
+                        <p class="card-text">
+                            🐾 Limpieza de oÍdos $120
+                        </p>
+                        <p class="card-text">
+                            🐾Corte de uñas $150
+                        </p>
+                    </div>
+                        <button type="button" class="btn btn-light" id="botonPrecios2">Agendar</button>
                     </div>
                 </div>
             </div>
         </div>
+        <!--TARJETA 3-->
+        <div class="container.fluid" id="container_main_precios">
+            <div class="card text-bg-dark" id="tarjeta3">
+                <img src="../imagenes/precios3.jpg" class="card-img" alt="Promocion pequeños">
+                <div class="card-img-overlay">
+                    <div>
+                        <h5 class="card-title" id="card_3_title">Razas pequeñas - Pelo corto</h5>
+                        <p class="card-text-light">                                                                       
+                            Aplica para mascotas menores o iguales a 10kg de peso.
+                        </p>
+                        <p class="card-text">
+                            🐾 Baño + Cepillado $500
+                        </p>
+                        <p class="card-text">
+                            🐾 Limpieza de oÍdos $120
+                        </p>
+                        <p class="card-text">
+                            🐾Corte de uñas $150
+                        </p>
+                    </div>
+                    <button type="button" class="btn btn-light" id="botonPrecios3">Agendar</button>
+                </div>
+            </div>
+        </div>
+        <!--TARJETA 4-->
+        <div class="container.fluid" id="container_main_precios">
+            <div class="card text-bg-dark" id="tarjeta4">
+                <img src="../imagenes/precios4.jpg" class="card-img" alt="Promocion pequeños">
+                <div class="card-img-overlay">
+                    <div class="flexbox_tarjeta_1">
+                        <h5 class="card-title" id="card_4_title">Razas grandes - Pelo largo</h5>
+                        <p class="card-text-light">Aplica para mascotas menores o iguales a 25kg de peso.
+                        </p>
+                        <p class="card-text">
+                            🐾 Baño + Deslanado $1650
+                        </p>
+                        <p class="card-text">
+                            🐾 Mantenimiento mensual $1200
+                        </p>
+                        <p class="card-text">
+                            🐾 Limpieza de oÍdos $120
+                        </p>
+                        <p class="card-text">
+                            🐾Corte de uñas $150
+                        </p>
+                        <button type="button" class="btn btn-light" id="boton_precios_4">Agendar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
     </main>
     <!--FOOTER-->
     <footer>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-     
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,95 +15,145 @@
 </head>
 
 <body>
-     <!--HEADER-->
-     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_header">
-            <a class="navbar-brand" href="#"><img src="../imagenes/My project-1.png" alt="Header Logo" class="header__logo"></a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./precios.html">Precios y Promociones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./clientes.html">Clientes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <!--HEADER-->
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_header">
+                <a class="navbar-brand" href="#"><img src="../imagenes/My project-1.png" alt="Header Logo" class="header__logo"></a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./precios.html">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./clientes.html">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
     </header>
     <!--MAIN-->
-    <main>
+    <main class="main_row">
         <div class="container.fluid">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <!--Tarjeta 1-->
+            <div class="card text-bg-dark" id="tarjeta_clientes">
+                    <img src="../imagenes/cliente 1.jpg" class="tarjeta_clientes" alt="Cliente 1" id="tarjeta_clientes">
+                    <div class="card-img-overlay" id="tarjeta_clientes">
+                        <h5 class="card-title">Jack</h5>
+                    </div>
+            </div>
+        </div>
+        <div class="container.fluid">  
+            <!--Tarjeta 2--> 
+            <div class="card text-bg-dark" id="tarjeta_clientes">
+                <img src="../imagenes/Cliente 2.jpg" class="card-img" alt="Cliente 2" id="tarjeta_clientes">
+                <div class="card-img-overlay" id="tarjeta_clientes"> 
+                  <h5 class="card-title">Taco</h5>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Leon</h5>
-                      <p>Deslanado+Baño</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Taco</h5>
-                      <p>Baño+Corte de Uñas</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Nombre tercer cliente</h5>
-                      <p>Descripcion servicio realizado</p>
-                    </div>
-                  </div>
+            </div>
+        </div>  
+        <div class="container.fluid">
+            <!--Tarjeta 3-->
+            <div class="card text-bg-dark" id="tarjeta_clientes">
+                <img src="../imagenes/cliente 3.jpg" class="card-img" alt="Cliente 3" id="tarjeta_clientes">
+                <div class="card-img-overlay" id="tarjeta_clientes">
+                  <h5 class="card-title">Roco</h5>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+            </div>
         </div>    
+            <!--Tarjeta 4-->
+        <div class="container.fluid"> 
+            <div class="card text-bg-dark" id="tarjeta_clientes">
+                <img src="../imagenes/cliente 4.jpg" class="card-img" alt="Cliente 4" id="tarjeta_clientes">
+                <div class="card-img-overlay" id="tarjeta_clientes">
+                  <h5 class="card-title">Mona</h5>
+                </div>
+            </div>
+        </div>
+            <!--Tarjeta 5-->
+        <div class="container.fluid"> 
+            <div class="card text-bg-dark" id="tarjeta_clientes">
+                <img src="../imagenes/Cliente 5.jpg" class="card-img" alt="Cliente 5" id="tarjeta_clientes">
+                <div class="card-img-overlay" id="tarjeta_clientes">
+                  <h5 class="card-title">Mia</h5>
+                </div>
+            </div>
+        </div>    
+            <!--Tarjeta 6-->
+        <div class="container.fluid"> 
+            <div class="card text-bg-dark" id="tarjeta_clientes">
+                <img src="../imagenes/Cliente 6.jpg" class="card-img" alt="Cliente 6" id="tarjeta_clientes">
+                <div class="card-img-overlay" id="tarjeta_clientes">
+                  <h5 class="card-title">Juana</h5>
+                </div>
+            </div> 
+        </div>
+            <!--Tarjeta 7-->
+        <div class="container.fluid"> 
+            <div class="card text-bg-dark" id="tarjeta_clientes">
+                <img src="../imagenes/Cliente 7.jpg" class="card-img" alt="Cliente 7" id="tarjeta_clientes">
+                <div class="card-img-overlay" id="tarjeta_clientes">
+                  <h5 class="card-title">Rita</h5>
+                </div>
+            </div> 
+        </div>
+            <!--Tarjeta 8-->
+            <div class="container.fluid"> 
+                <div class="card text-bg-dark" id="tarjeta_clientes">
+                    <img src="../imagenes/Cliente 8.jpg" class="card-img" alt="Cliente 8" id="tarjeta_clientes">
+                    <div class="card-img-overlay" id="tarjeta_clientes">
+                      <h5 class="card-title" id="card-title-black">Ramon</h5>
+                    </div>
+                </div> 
+            </div>
+            <!--Tarjeta 9-->
+        <div class="container.fluid"> 
+            <div class="card text-bg-dark" id="tarjeta_clientes">
+                <img src="../imagenes/Cliente 9.png" class="card-img" alt="Cliente 9" id="tarjeta_clientes">
+                <div class="card-img-overlay" id="tarjeta_clientes">
+                  <h5 class="card-title">Canela</h5>
+                </div>
+            </div> 
+        </div>
+            <!--Tarjeta 10-->
+        <div class="container.fluid"> 
+            <div class="card text-bg-dark" id="tarjeta_clientes">
+                <img src="../imagenes/Cliente 10.jpg" class="card-img" alt="Cliente 10" id="tarjeta_clientes">
+                <div class="card-img-overlay" id="tarjeta_clientes">
+                  <h5 class="card-title">Pomelo</h5>
+                </div>
+            </div> 
+        </div>
     </main>
     <!--FOOTER-->
     <footer>
-        <div class="container.fluid">
-        <p class="texto__footer">©All rights reserved</p>
-        <p class="texto__footer"><a href="https://github.com/RodrigoSuarez47">Rodrigo Suarez</a></p>
-        </div>
-        <div class="container.fluid"> 
-            <div><p id="textoFooterContacto"><a href="../paginas/contacto.html">Contactate con nosotros</a></p>
+            <div class="container.fluid">
+            <p class="texto__footer">©All rights reserved</p>
+            <p class="texto__footer"><a href="https://github.com/RodrigoSuarez47">Rodrigo Suarez</a></p>
             </div>
-            <div class="div__footer__logos">
-                <a class="footer__logo" href="https://www.facebook.com/people/Peluquer%C3%ADa- Canina-Le%C3%B3n/100063632706213/?ref=py_c"> 
-                    <img src="../imagenes/Logo-Facebook.png" class="footer__logo" alt="Logo Facebook Footer"> 
-                </a>
-                <a class="footer__logo" href="https://www.instagram.com/peluqueria.leon/"> 
-                    <img src="../imagenes/Logo-Instagram.png" class="footer__logo" alt="Logo Instagram Footer"> 
-                </a>
-                <a class="footer__logo" href="https://www.whatsapp.com/"> 
-                <img src="../imagenes/Logo-Whatsapp.png" class="footer__logo" alt="Logo Whatsapp Footer"> 
-                </a>
+            <div class="container.fluid"> 
+                <div><p id="textoFooterContacto"><a href="./contacto.html">Contactate con nosotros</a></p>
+                </div>
+                <div class="div__footer__logos">
+                    <a class="footer__logo" href="https://www.facebook.com/people/Peluquer%C3%ADa- Canina-Le%C3%B3n/100063632706213/?ref=py_c"> 
+                        <img src="../imagenes/Logo-Facebook.png" class="footer__logo" alt="Logo Facebook Footer"> 
+                    </a>
+                    <a class="footer__logo" href="https://www.instagram.com/peluqueria.leon/"> 
+                        <img src="../imagenes/Logo-Instagram.png" class="footer__logo" alt="Logo Instagram Footer"> 
+                    </a>
+                    <a class="footer__logo" href="https://www.whatsapp.com/"> 
+                    <img src="../imagenes/Logo-Whatsapp.png" class="footer__logo" alt="Logo Whatsapp Footer"> 
+                    </a>
+                </div>
             </div>
-        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
