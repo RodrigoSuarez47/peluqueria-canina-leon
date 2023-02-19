@@ -64,7 +64,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: transparent!important;
     height: 90px;
     margin: 10px;
@@ -590,4 +590,46 @@ input {
     border-radius: 80px;
     width: 70px;
     height: 70px;
+}
+/*MEDIA QUERIES*/
+
+/*XS*/
+@media screen (min-width:0px) and (max-width: 576px) {
+    
+    .header {
+        height: 320px;
+    }
+
+    .header__logo {
+        width: 120px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar_header {
+        height: 320px;
+    }
+
+}
+
+/*S*/
+@media screen (min-width: 577px) and (max-width: 768px) {
+
+    .header {
+        height: 320px;
+    }
+
+    .header__logo {
+        width: 120px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .navbar_header {
+        height: 320px; 
+    }
 }
