@@ -55,18 +55,23 @@ header {
     justify-content: center;
 }
 
-#navbar_header {
+.header__logo:hover {
+    transform: scale(1.1);
+}
+
+.navbar_header {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
-    background-size: cover;
+    background-color: transparent!important;
     height: 90px;
+    margin: 10px;
+    padding: 10px;
 }
 
-#navbarNav {
+.navbarNav {
     width: 100%;
     margin:0px;
     display: flex;
@@ -79,6 +84,10 @@ header {
     font-family: 'Poppins', sans-serif;
     font-size: large;
     font-weight: 600;
+}
+
+.nav-link:hover {
+    transform: scale(1.5);
 }
 
 /*FOOTER*/
@@ -103,7 +112,11 @@ footer{
     margin-left: 30px;
 }
 
-#textoFooterContacto {
+.textoFooterContacto:hover {
+    transform: scale(1.2);
+}
+
+.textoFooterContacto {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,6 +149,10 @@ footer{
     height: 40px;
 }
 
+.footer__logo:hover {
+    transform: scale(1.1);
+}
+
 /*MAIN*/
 main {
     grid-area: main;
@@ -166,9 +183,6 @@ main {
     justify-content: center;
     margin: 10px;
     padding: 10px;
-}
-
-#button-index {
     font-family: 'Poppins', sans-serif;
     font-size: large;
     font-weight: 600;
@@ -176,19 +190,16 @@ main {
 
 /*MAIN SERVICIOS*/
 
-#main_columna1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#container_main_servicios {
+.container_main_servicios {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     margin: 30px;
+}
+
+.container_main_servicios:hover {
+    transform: scale(1.1);
 }
 
 .mb-3 {
@@ -215,21 +226,21 @@ main {
     align-items: center;
 }
 
-#card_servicios_imagen {
+.card_servicios_imagen {
     width: 500px;
     height: 120px;
     border-radius: 0px;
     border-style: none;
 }
 
-#imagenes_tarjetas_servicios {
+.imagenes_tarjetas_servicios {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-#boton_servicios {
+.boton_servicios {
     font-family: 'Poppins', sans-serif;
     font-size: large;
     font-weight: 600; 
@@ -237,12 +248,16 @@ main {
 
 /*MAIN PRECIO*/
 
-#container_main_precios {
+.container_main_precios {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     padding: 10px;
+}
+
+.container_main_precios:hover {
+    transform: scale(1.05);
 }
 
 .flexbox_tarjeta_1 {
@@ -253,14 +268,14 @@ main {
 }
 
 
-#tarjeta1{
+.tarjeta1{
     border-color: #F574BF;
-    border-width: 3px;
+    border-width: 4px;
     border-style: solid;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
-#card_1_title {
+.card_1_title {
     font-weight: 600;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -268,20 +283,20 @@ main {
     font-size: 20px;
 }
 
-#boton_precios_1 {
+.boton_precios_1 {
     background-color: #F574BF;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
 
-#tarjeta2 {
+.tarjeta2 {
     border-color: #57A0FA;
-    border-width: 3px;
+    border-width: 4px;
     border-style: solid;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
-#card_2_title {
+.card_2_title {
     font-weight: 600;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -289,20 +304,20 @@ main {
     font-size: 20px;
 }
 
-#botonPrecios2 {
+.botonPrecios2 {
     background-color: #57a0fa;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
 
-#tarjeta3 {
+.tarjeta3 {
     border-color: #00E300;
-    border-width: 3px;
+    border-width: 4px;
     border-style: solid;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
-#card_3_title {
+.card_3_title {
     font-weight: 600;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -310,7 +325,7 @@ main {
     font-size: 20px;
 }
 
-#botonPrecios3 {
+.botonPrecios3 {
     background-color:#00E300;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -349,11 +364,11 @@ main {
     align-items: center;
 }
 
-#tarjeta4 {
+.tarjeta4 {
     border-color: #F5DD2E;
-    border-width: 3px;
+    border-width: 4px;
     border-style: solid;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .flexbox_tarjeta_4 {
@@ -363,7 +378,7 @@ main {
     align-items: center;
 }
 
-#card_4_title {
+.card_4_title {
     font-weight: 600;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -371,7 +386,7 @@ main {
     font-size: 20px;
 }
 
-#boton_precios_4 {
+.boton_precios_4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     background-color: #F5DD2E;
@@ -379,7 +394,7 @@ main {
 
 /*MAIN CLIENTES*/
 
-#tarjeta_clientes {
+.tarjeta_clientes {
     height: 400px;
     width: 270px;
     border-radius: 50px;
@@ -390,56 +405,12 @@ main {
     margin: 20px;
 }
 
-#card-title-black {
+.tarjeta_clientes:hover {
+    transform:scale(1.05) ;
+}
+
+.card-title-black {
     color: black;
-}
-
-
-.div__main__clientes {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.div__main__clientes__tarjetas{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.tarjeta-clientes {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 10px;
-    padding: 10px;
-}
-
-.imagen-tarjeta-clientes {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    width: 250px;
-    height: 300px;
-}
-
-.titulo-tarjeta-clientes {
-    color: #182e43F;
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.parrafo-tarjeta-clientes {
-    color: #041535;
-    font-size: large;
-    font-weight: 400;
-    text-align: center;
 }
 
 /*MAIN CONTACTO:*/
@@ -619,14 +590,4 @@ input {
     border-radius: 80px;
     width: 70px;
     height: 70px;
-}
-
-/*KEYFRAMES*/
-@keyframes scale-up-center {
-    0% {
-        transform:scale(.2);
-    }
-    100% {
-        transform:scale(1);
-    } 
 }
