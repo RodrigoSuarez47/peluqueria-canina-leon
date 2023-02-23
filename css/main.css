@@ -1,0 +1,9 @@
+/*Layout*/
+@import url(./layout/header.scss);
+@import url(./layout/footer.scss);
+/*/Pages*/
+@import url(./pages/index.scss);
+@import url(./pages/servicios.scss);
+@import url(./pages/precios.scss);
+@import url(./pages/clientes.scss);
+@import url(./pages/contacto.scss);
