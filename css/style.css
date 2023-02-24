@@ -15,7 +15,7 @@ body {
     "footer footer";
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
     background-size: cover;
 }
@@ -23,7 +23,7 @@ body {
 /*LINKS*/
 a:-webkit-any-link {
     text-decoration: none;
-    color: #182e43;
+    color: black;
     cursor: pointer;
 }
 
@@ -176,14 +176,23 @@ main {
 
 /*MAIN INDEX*/
 
+.carousel {
+    width: 1200px;
+    height: min-content;
+    margin-top: 30px;
+}
+
+.img {
+    border-radius: 20px;
+}
+
+
 .button_index {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 10px;
     padding: 10px;
-    font-family: 'Poppins', sans-serif;
     font-size: large;
     font-weight: 600;
 }
@@ -194,26 +203,21 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    margin: 30px;
+    justify-content: center;
+    margin: 20px;
+    max-width: 550px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
 }
 
 .container_main_servicios:hover {
     transform: scale(1.1);
 }
 
-.mb-3 {
-    border-width: 5px;
-    border-color: black;
-    border-radius: 10px;
-    margin: 0px;
-    margin-bottom: 0px!important;
-}
-
 .card-title-servicios {
     font-weight: 600;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 20px;
     background-color: lightgray;
@@ -228,20 +232,20 @@ main {
 
 .card_servicios_imagen {
     width: 500px;
-    height: 120px;
-    border-radius: 0px;
+    height: 300px;
+    border-radius: 5px;
     border-style: none;
+    object-fit: cover;
 }
 
 .imagenes_tarjetas_servicios {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .boton_servicios {
-    font-family: 'Poppins', sans-serif;
     font-size: large;
     font-weight: 600; 
 }
@@ -278,7 +282,6 @@ main {
 .card_1_title {
     font-weight: 600;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     color: #F574BF;
     font-size: 20px;
 }
@@ -286,7 +289,6 @@ main {
 .boton_precios_1 {
     background-color: #F574BF;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
 }
 
 .tarjeta2 {
@@ -299,7 +301,6 @@ main {
 .card_2_title {
     font-weight: 600;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     color: #57A0FA;
     font-size: 20px;
 }
@@ -307,7 +308,6 @@ main {
 .botonPrecios2 {
     background-color: #57a0fa;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
 }
 
 .tarjeta3 {
@@ -320,7 +320,6 @@ main {
 .card_3_title {
     font-weight: 600;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     color: #00E300;
     font-size: 20px;
 }
@@ -328,7 +327,6 @@ main {
 .botonPrecios3 {
     background-color:#00E300;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -338,7 +336,6 @@ main {
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: black;
     font-size: 14px;
@@ -346,7 +343,6 @@ main {
 
 .card-text-light {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     color: #bcc6cf;
     font-size: smaller;
     margin-bottom: 40px;
@@ -381,13 +377,11 @@ main {
 .card_4_title {
     font-weight: 600;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     color: #F5DD2E;
     font-size: 20px;
 }
 
 .boton_precios_4 {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     background-color: #F5DD2E;
 }
@@ -426,19 +420,10 @@ main {
 .div__main__contacto__elementos{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-#tituloContacto {
-    display: flex;
     justify-content: center;
     align-items: center;
-    color: #182e43F;
-    font-size: xx-large;
-    font-weight: 600;
-    text-align: center;
+    gap: 5rem;
+    width: 100%;
 }
 
 form {
@@ -446,21 +431,15 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px;
     padding: 20px;
-}
-#formularioContacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
-    outline-color:#1289FF;
-    outline-style:solid;
-    outline-width:medium;
-    border: #041535;
+    width: 400px;
+    border: black;
+    border-radius: 10px;
+    border-style: solid;
 }
 
-#imagenAgenda {
+.imagenAgenda {
     padding: 20px;
     margin: 20px;
     border-radius: 0px;
@@ -469,41 +448,38 @@ form {
 }
 
 input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-width: 1px;
-    border-color: lightgray;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    border: lightgray;
+    border-radius: 10px;
     border-style: hidden;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color: white;
 }    
 
-
-#nombreCompleto {
-    color: #041535;
+select {
     font-size: large;
     font-weight: 400;
     text-align: center;
+    border: lightgray;
+    border-radius: 10px;
+    border-style: hidden;
     margin: 10px;
-    padding: 10px; 
-}
-
-#telefono {
-    color: #041535;
-    font-size: large;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin: 10px;
-    padding: 10px; 
+    padding: 10px;
+    width: 300px;
+    background-color: white;
 }
 
 .preguntas-formulario {
-    color: #041535;
     font-size: large;
     font-weight: 400;
     text-align: center;
     margin: 10px;
     padding: 10px; 
+    text-align: center;
 }
 
 .preguntas_formulario_flexbox {
@@ -514,10 +490,8 @@ input {
     width: 100px;
 }
 
-#informacionadicional {
-    color:#041535;
+.h5 {
     font-size: large;
-    font-weight: 400;
     text-align: center; 
 }
 
@@ -529,7 +503,7 @@ input {
     height: 100px;
 }
 
-#horarios{
+.horarios{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -537,21 +511,7 @@ input {
 
 }
 
-#subtituloHorariosContacto {
-    color:#182e43F;
-    font-size: large;
-    font-weight: 400;
-    text-align: center;
-}
-
-#informacionHorariosContacto {
-    color: #041535;
-    font-size: large;
-    font-weight: 400;
-    text-align: center;
-}
-
-#ubicacion {
+.ubicacion {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -559,45 +519,47 @@ input {
 }
 
 #botonFormulario {
-    font-family: 'Poppins', sans-serif;
-    background-color: #1289FF;
-    background-image: none;
+    background-color: white;
     font-size: large;
-    font-weight: 400;
-    font-style: bold;
+    font-weight: 600;
     text-align: center;
-    width: auto;
-    height: auto;
     padding: 10px;
     margin: 10px;
-    border-color: #1289FF;
-    border-style: none;
 }
 
-#contenedorResdesSociales {
+.contenedorResdesSociales {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    margin-left: auto;
     padding: 10px;
-    border-radius: 80px;
 }
 
 .contenedor-redes-sociales {
     margin: 10px;
     padding: 10px;
-    border-radius: 80px;
     width: 70px;
     height: 70px;
 }
+
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 /*MEDIA QUERIES*/
 
 /*XS*/
-@media screen (min-width:0px) and (max-width: 576px) {
+@media screen and (min-width:0px) and (max-width: 576px) {
     
-    .header {
-        height: 320px;
+    header {
+        height: 30vh;
+        width: auto;
+        justify-content: center;
+
     }
 
     .header__logo {
@@ -609,27 +571,82 @@ input {
     }
 
     .navbar_header {
-        height: 320px;
+        height: 30vh;
+        margin:0px;
+        padding: 0px;
+        width: auto;
     }
 
-}
-
-/*S*/
-@media screen (min-width: 577px) and (max-width: 768px) {
-
-    .header {
-        height: 320px;
+    .nav-link {
+        font-size: small;
     }
 
-    .header__logo {
-        width: 120px;
-        height: 100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    li {
+        padding: 0px;
+        font-size: small;
+    }
+
+    .carousel {
+        width: auto;
+        margin-top: 0px;
+    }
+
+    .button_index {
+        font-size: medium;
     }
     
-    .navbar_header {
-        height: 320px; 
+    .texto__footer {
+        justify-content: flex-start;
+        font-size: x-small;
     }
+
+    .textoFooterContacto {
+        font-size: small;
+    }
+
+    .footer__logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .tarjeta_clientes {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 0px;
+        height: 300px;
+        width: 180px;
+    }
+    
+    form {
+        width: min-content;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    input {
+        width: auto;
+        font-size: medium;
+    }
+
+    select {
+        width: auto;
+        font-size: medium;
+        padding:0px;
+    }
+
+    .preguntas-formulario {
+        font-size: medium;
+    }
+
+    #botonFormulario {
+        font-size: medium;
+        margin: 0px;
+    }
+
+    .h5 {
+        font-size: medium;
+    }
+
 }
+
