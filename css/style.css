@@ -180,12 +180,9 @@ main {
     width: 1200px;
     height: min-content;
     margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
-
-.img {
-    border-radius: 20px;
-}
-
 
 .button_index {
     display: flex;
@@ -433,7 +430,6 @@ form {
     align-items: center;
     margin: 20px;
     padding: 20px;
-    width: 400px;
     border: black;
     border-radius: 10px;
     border-style: solid;
@@ -619,7 +615,6 @@ select {
     }
     
     form {
-        width: min-content;
         margin: 0px;
         padding: 0px;
     }
@@ -650,3 +645,299 @@ select {
 
 }
 
+/*S*/
+@media screen and (min-width:576px) and (max-width: 768px) {
+    
+    header {
+        height: 35vh;
+        width: auto;
+        justify-content: center;
+    }
+
+    .header__logo {
+        width: 180px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar_header {
+        height: 35vh;
+        margin:0px;
+        padding: 0px;
+        width: auto;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    li {
+        padding: 0px;
+        font-size: medium;
+    }
+
+    .carousel {
+        width: auto;
+        margin-top: 0px;
+    }
+
+    .button_index {
+        font-size: large;
+    }
+    
+    .texto__footer {
+        justify-content: flex-start;
+        font-size: small;
+    }
+
+    .textoFooterContacto {
+        font-size: medium;
+    }
+
+    .footer__logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .tarjeta_clientes {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 0px;
+        height: 300px;
+        width: 180px;
+    }
+    
+    form {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    input {
+        width: auto;
+        font-size: medium;
+    }
+
+    select {
+        width: auto;
+        font-size: medium;
+        padding:0px;
+    }
+
+    .preguntas-formulario {
+        font-size: medium;
+    }
+
+    #botonFormulario {
+        font-size: medium;
+        margin: 0px;
+    }
+
+    .h5 {
+        font-size: medium;
+    }
+
+    .row {
+        justify-content: center;
+    }
+}
+
+/*M*/
+@media screen and (min-width:768px) and (max-width: 992px) {
+    
+    header {
+        height: 40vh;
+        width: auto;
+        justify-content: center;
+    }
+
+    .header__logo {
+        width: 220px;
+        height: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar_header {
+        height: 40vh;
+        margin:0px;
+        padding: 0px;
+        width: auto;
+    }
+
+    .nav-link {
+        font-size: large;
+    }
+
+    li {
+        padding: 0px;
+        font-size: large;
+    }
+
+    .carousel {
+        width: auto;
+        margin-top: 0px;
+    }
+
+    .button_index {
+        font-size: large;
+    }
+    
+    .texto__footer {
+        justify-content: flex-start;
+        font-size: small;
+    }
+
+    .textoFooterContacto {
+        font-size: medium;
+    }
+
+    .footer__logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .tarjeta_clientes {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 0px;
+        height: 300px;
+        width: 180px;
+    }
+    
+    form {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    input {
+        width: auto;
+        font-size: large;
+    }
+
+    select {
+        width: auto;
+        font-size: large;
+        padding:0px;
+    }
+
+    .preguntas-formulario {
+        font-size: large;
+    }
+
+    #botonFormulario {
+        font-size: large;
+        margin: 0px;
+    }
+
+    .h5 {
+        font-size: medium;
+    }
+
+    .row {
+        justify-content: center;
+    }
+}
+
+/*L*/
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    
+    header {
+        height: 40vh;
+        width: auto;
+        justify-content: center;
+    }
+
+    .header__logo {
+        width: 220px;
+        height: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar_header {
+        height: 40vh;
+        margin:0px;
+        padding: 0px;
+        width: auto;
+    }
+
+    .nav-link {
+        font-size: large;
+    }
+
+    li {
+        padding: 0px;
+        font-size: large;
+    }
+
+    .carousel {
+        width: auto;
+        margin-top: 0px;
+    }
+
+    .button_index {
+        font-size: large;
+    }
+    
+    .texto__footer {
+        justify-content: flex-start;
+        font-size: small;
+    }
+
+    .textoFooterContacto {
+        font-size: medium;
+    }
+
+    .footer__logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .tarjeta_clientes {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 0px;
+        height: 300px;
+        width: 180px;
+    }
+    
+    form {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    input {
+        width: auto;
+        font-size: large;
+    }
+
+    select {
+        width: auto;
+        font-size: large;
+        padding:0px;
+    }
+
+    .preguntas-formulario {
+        font-size: large;
+    }
+
+    #botonFormulario {
+        font-size: large;
+        margin: 0px;
+    }
+
+    .h5 {
+        font-size: medium;
+    }
+
+    .row {
+        justify-content: center;
+    }
+}
