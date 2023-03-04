@@ -1,0 +1,55 @@
+/*CLIENTES.HTML*/
+.tarjeta_clientes {
+    height: 400px;
+    width: 270px;
+    border-radius: 50px;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    background-color: transparent!important;
+    margin: 20px;
+    &:hover {
+        transform: scale(1.05);
+    }
+    @include XS {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 0px;
+        height: 300px;
+        width: 180px;
+    }
+    @include S {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 0px;
+        height: 300px;
+        width: 180px;
+    }
+    @include M {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 0px;
+        height: 300px;
+        width: 180px;
+    }
+    @include L {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 0px;
+        height: 300px;
+        width: 180px;
+    }
+    .card-title {
+        text-align: center;
+    }
+    .card-title-black {
+        color: black;
+        text-align: center;
+    }
+}
+
+

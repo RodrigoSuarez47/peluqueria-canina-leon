@@ -242,11 +242,6 @@ main {
     align-items: center;
 }
 
-.boton_servicios {
-    font-size: large;
-    font-weight: 600; 
-}
-
 /*MAIN PRECIO*/
 
 .container_main_precios {
@@ -257,11 +252,7 @@ main {
     padding: 10px;
 }
 
-.container_main_precios:hover {
-    transform: scale(1.05);
-}
-
-.flexbox_tarjeta_1 {
+.flexbox_tarjetas {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -364,13 +355,6 @@ main {
     border-radius: 10px;
 }
 
-.flexbox_tarjeta_4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .card_4_title {
     font-weight: 600;
     text-align: center;
@@ -402,6 +386,8 @@ main {
 
 .card-title-black {
     color: black;
+    text-align: center;
+    justify-content: center;
 }
 
 /*MAIN CONTACTO:*/
@@ -433,6 +419,7 @@ form {
     border: black;
     border-radius: 10px;
     border-style: solid;
+    width:fit-content;
 }
 
 .imagenAgenda {
@@ -499,21 +486,6 @@ select {
     height: 100px;
 }
 
-.horarios{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-
-}
-
-.ubicacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
-
 #botonFormulario {
     background-color: white;
     font-size: large;
@@ -521,22 +493,6 @@ select {
     text-align: center;
     padding: 10px;
     margin: 10px;
-}
-
-.contenedorResdesSociales {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    padding: 10px;
-}
-
-.contenedor-redes-sociales {
-    margin: 10px;
-    padding: 10px;
-    width: 70px;
-    height: 70px;
 }
 
 .col-sm-6 {
@@ -555,7 +511,6 @@ select {
         height: 30vh;
         width: auto;
         justify-content: center;
-
     }
 
     .header__logo {

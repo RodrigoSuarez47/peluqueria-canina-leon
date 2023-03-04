@@ -1,0 +1,200 @@
+/*PRECIOS.HTML*/
+.container_main_precios {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    .tarjeta1{
+        border-color: #F574BF;
+        border-width: 4px;
+        border-style: solid;
+        border-radius: 10px;
+        .card-img {
+            height: 550px;
+            width: 320px;
+        }
+        .card-img-overlay {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .flexbox_tarjetas {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .card_1_title {
+                    font-weight: 600;
+                    text-align: center;
+                    color: #F574BF;
+                    font-size: 20px;
+                }
+                .card-text-light {
+                    text-align: center;
+                    color: #bcc6cf;
+                    font-size: smaller;
+                    margin-bottom: 40px;
+                }
+                .card-text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    text-align: left;
+                    font-weight: 600;
+                    color: black;
+                    font-size: 14px;
+                }
+            }
+            .boton_precios_1 {
+                background-color: #F574BF;
+                font-weight: 600;
+            }
+        }
+    }
+    .tarjeta2 {
+        border-color: #57A0FA;
+        border-width: 4px;
+        border-style: solid;
+        border-radius: 10px;
+        .card-img {
+            height: 550px;
+            width: 320px;
+        }
+        .card-img-overlay {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .flexbox_tarjetas {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .card_2_title {
+                    font-weight: 600;
+                    text-align: center;
+                    color: #57A0FA;
+                    font-size: 20px;
+                }
+                .card-text-light {
+                    text-align: center;
+                    color: #bcc6cf;
+                    font-size: smaller;
+                    margin-bottom: 40px;
+                }
+                .card-text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    text-align: left;
+                    font-weight: 600;
+                    color: black;
+                    font-size: 14px;
+                }
+            }
+            .botonPrecios2 {
+                background-color: #57a0fa;
+                font-weight: 600;
+            }
+        }
+    }
+    .tarjeta3 {
+        border-color: #00E300;
+        border-width: 4px;
+        border-style: solid;
+        border-radius: 10px;
+        .card-img {
+            height: 550px;
+            width: 320px;
+        }
+        .card-img-overlay {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .flexbox_tarjetas {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .card_3_title {
+                    font-weight: 600;
+                    text-align: center;
+                    color: #00E300;
+                    font-size: 20px;
+                }
+                .card-text-light {
+                    text-align: center;
+                    color: #bcc6cf;
+                    font-size: smaller;
+                    margin-bottom: 40px;
+                }
+                .card-text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    text-align: left;
+                    font-weight: 600;
+                    color: black;
+                    font-size: 14px;
+                }
+            }
+            .botonPrecios3 {
+                background-color:#00E300;
+                font-weight: 600;
+            }
+        }
+    }
+    .tarjeta4 {
+        border-color: #F5DD2E;
+        border-width: 4px;
+        border-style: solid;
+        border-radius: 10px;
+        .card-img {
+            height: 550px;
+            width: 320px;
+        }
+        .card-img-overlay {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .flexbox_tarjetas {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .card_4_title {
+                    font-weight: 600;
+                    text-align: center;
+                    color: #F5DD2E;
+                    font-size: 20px;
+                }
+                .card-text-light {
+                    text-align: center;
+                    color: #bcc6cf;
+                    font-size: smaller;
+                    margin-bottom: 40px;
+                }
+                .card-text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    text-align: left;
+                    font-weight: 600;
+                    color: black;
+                    font-size: 14px;
+                }
+            }
+            .boton_precios_4 {
+                font-weight: 600;
+                background-color: #F5DD2E;
+            }
+        }
+    }
+}

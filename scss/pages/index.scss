@@ -1,0 +1,46 @@
+/*INDEX.HTML*/
+.carousel {
+    width: 1200px;
+    height: min-content;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    @include XS {
+        width: auto;
+        margin-top: 20px;
+    }
+    @include S {
+        width: auto;
+        margin-top: 20px;
+    }
+    @include M {
+        width: auto;
+        margin-top: 15px;
+        }
+    @include L {
+        width: auto;
+        margin-top: 15px;
+    }
+}
+
+.button_index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    @include XS {
+        font-size: medium;
+    }
+    @include S {
+        font-size: large;
+    }
+    @include M {
+        font-size: large;
+    }
+    @include L {
+        font-size: large;
+    }
+}

@@ -1,11 +1,147 @@
+/*HEADER*/
+header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    height: 90px;
     
-    header {
-        grid-area: header;
+    @include XS {
+        height: 35vh;
+        width: auto;
+        justify-content: center;
+    }
+    @include S {
+            height: 35vh;
+            width: auto;
+            justify-content: center;
+    }
+    @include M {
+        height: 40vh;
+        width: auto;
+        justify-content: center;
+    }
+    @include L {
+            height: 40vh;
+            width: auto;
+            justify-content: center;
+    }
+
+    
+    .navbar_header {
+        width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
         align-items: center;
-        width: 100%;
-        background-color: transparent;
+        justify-content: space-between;
+        background-color: transparent!important;
         height: 90px;
+        margin: 10px;
+        padding: 10px;
+        @include XS {
+            height: 35vh;
+            margin:0px;
+            padding: 0px;
+            width: auto;
         }
+        @include S {
+            height: 35vh;
+            margin:0px;
+            padding: 0px;
+            width: auto;
+        }
+        @include M{
+            height: 40vh;
+            margin:0px;
+            padding: 0px;
+            width: auto;
+        }
+        @include L{
+            height: 40vh;
+            margin:0px;
+            padding: 0px;
+            width: auto;
+        }
+    }
+
+    .navbarNav {
+        width: 100%;
+        margin:0px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    .header__logo { 
+        border-radius: 10px;
+        width: 180px;
+        height: 130px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+            &:hover{
+            transform: scale(1.1);
+            }
+            @include XS {
+                width: 120px;
+                height: 100px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            @include S {
+                width: 180px;
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            @include M {
+                    width: 220px;
+                    height: 190px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            
+            @include L {
+                width: 220px;
+                height: 190px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+    }
+    
+
+    .nav-link {
+        font-family: 'Poppins', sans-serif;
+        font-size: large;
+        font-weight: 600;
+        &:hover {
+            transform: scale(1.5);
+        }
+        @include XS {
+            font-size: small;
+            padding: 0px;
+        }
+        @include S {
+            font-size: medium;
+            padding: 0px;
+        }
+        @include M {
+            font-size: large;
+            padding:0px
+        }
+        @include L {
+            font-size: large;
+            padding: 5px;
+        }
+    }
+}
+
+
