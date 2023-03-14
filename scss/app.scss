@@ -1,17 +1,16 @@
 /*Base*/
-@import "./base/reset.scss";
-@import "./base/general.scss";
+@import "./base/general";
 
 /*MIXINS*/
-@import "./utilidades/media-queries.scss";
+@import "./utilidades/media-queries";
 
 /*/Layout*/
-@import "./layout/header.scss";
-@import "./layout/footer.scss";
+@import "./layout/header";
+@import "./layout/footer";
 
 /*/Pages*/
-@import "./pages/index.scss";
-@import "./pages/servicios.scss";
-@import "./pages/precios.scss";
-@import "./pages/clientes.scss";
-@import "./pages/contacto.scss";
+@import "./pages/index";
+@import "./pages/servicios";
+@import "./pages/precios";
+@import "./pages/clientes";
+@import "./pages/contacto";

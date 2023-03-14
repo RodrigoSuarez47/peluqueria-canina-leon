@@ -1,3 +1,10 @@
+/*RESET*/
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*BODY TODOS LOS HTML*/
 body {
     display: grid;
@@ -10,6 +17,18 @@ body {
     height: 100vh;
     background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
     background-size: cover;
+    @include XS {
+        height: auto;
+    }
+    @include S {
+        height: auto;
+    }
+    @include M {
+        height: auto;
+    }
+    @include L {
+        height:auto;
+    }
 }
 
 /*LINKS*/

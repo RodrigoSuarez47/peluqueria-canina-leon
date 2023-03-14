@@ -20,12 +20,12 @@ header {
             justify-content: center;
     }
     @include M {
-        height: 40vh;
+        height: 35vh;
         width: auto;
         justify-content: center;
     }
     @include L {
-            height: 40vh;
+            height: 25vh;
             width: auto;
             justify-content: center;
     }
@@ -54,13 +54,13 @@ header {
             width: auto;
         }
         @include M{
-            height: 40vh;
+            height: 35vh;
             margin:0px;
             padding: 0px;
             width: auto;
         }
         @include L{
-            height: 40vh;
+            height: 25vh;
             margin:0px;
             padding: 0px;
             width: auto;
